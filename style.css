@@ -1,0 +1,148 @@
+.main {
+    display: none;
+}
+body {
+    background-color: black;
+    
+}
+.warningh1 {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .warning {
+        display: none;
+    }
+    .main {
+        display: block;
+    }
+    .page1 {
+        margin-top: 45%;
+        background-color: aliceblue;
+        width: 90%;
+        margin-left: 6%;
+        text-align: center;
+        border-radius: 30% 30%/ 80% 80%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .pesan {
+        color: black;
+        font-family: 'Courier New', Courier;
+        text-align: center;
+        font-size: 2em;
+    }
+    .surat {
+        width: 55%;
+        box-shadow: 0px 0px 10px #007eec;
+    }
+    .page2 {
+        margin-top: 40%;
+        background-color: aliceblue;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+        width: 95%;
+        border-radius: 15px;
+        display: none;
+    }
+    .today {
+        color: black;
+        font-size: 2em;
+    }
+    .inputDate {
+        font-size: 1.9em;
+    }
+    .button {
+        font-size: 1.4em;
+    }
+    .tidak-sesuai {
+        display: none;
+    }
+
+    @keyframes transparan {
+        0% {
+          opacity: 0.2; 
+        }
+        50% {
+          opacity: 1; 
+        }
+        100% {
+          opacity: 0.3; 
+        }
+      }
+      .page3 {
+        margin-top: 0px;
+        display: none;
+        
+      }
+      
+      .anywhere {
+        font-family: 'Courier New', Courier, monospace;
+        color: whitesmoke;
+        text-align: center;
+        animation: transparan 2s infinite;
+        display: none;
+        margin-top: 30px;
+        padding: 12 0 12;
+      }
+      .hariApa {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        font-family: Arial, sans-serif;
+        overflow: hidden; 
+        white-space: nowrap; 
+        margin-left: 9%; 
+        letter-spacing: .12em; 
+        animation: typing 4s steps(40, end), blink-caret .75s step-end infinite;
+      }
+      
+      /* Animasi */
+      @keyframes typing {
+        from {
+           width: 0 }
+        to {
+           width: 80% }
+      }
+      .oiya {
+        color: white;
+        opacity: 0;
+        text-align: center;
+        font-size: 2.3em;
+      }
+      .page4 {
+       display: none;
+      }
+      .hbd {
+        display: none;
+        color: white;
+        letter-spacing: 1.2em;
+        text-align: center;
+        font-size: 2.5em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+      }
+      .container-hbd {
+        display: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .row {
+        display: flex;
+        
+    }
+    
+    .container-hbd h1 {
+        margin: 0;
+        font-size: 3.0em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+        margin: 20px;
+    }
+    
+    
+  }
+    
+    
